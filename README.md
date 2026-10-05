@@ -18,6 +18,7 @@ npm install typescript ts-node @types/node --save-dev
 6. npm audit fix **fixes vulnerabilities for packages.
 7. npm install morgan @types/morgan
 *note: use --force if the packages have problems installing.
+**note: or if you want to fix the packages use npm audit fix
 
 add to tsconfig.json
 "rootDir": "src",
